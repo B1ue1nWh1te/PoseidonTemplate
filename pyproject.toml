@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "poseidon-template"
+version = "2.0.0"
+description = "Poseidon Template"
+authors = ["B1ue1nWh1te <themagicdeepsea@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+python-dotenv = "^1.0.1"
+poseidon-python = "^2.0.0"
+
+[[tool.poetry.source]]
+name = "tsinghua"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+priority = "primary"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
