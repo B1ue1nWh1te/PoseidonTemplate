@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "poseidon-template"
-version = "2.0.0"
+version = "2.0.1"
 description = "Poseidon Template"
 authors = ["B1ue1nWh1te <themagicdeepsea@gmail.com>"]
 readme = "README.md"
@@ -10,8 +10,8 @@ package-mode = false
 python = "^3.9"
 
 [tool.poetry.group.dev.dependencies]
-python-dotenv = "^1.0.1"
-poseidon-python = "^2.0.0"
+python-dotenv = "^1.1.0"
+poseidon-python = "^2.0.1"
 
 [[tool.poetry.source]]
 name = "tsinghua"
